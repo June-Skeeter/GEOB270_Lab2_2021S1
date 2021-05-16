@@ -6,11 +6,11 @@ nav_order: 3
 
 # Raster Data
 
-## Download Data from Google Earth Engine
+## Calculating NDVI from LANDSAT8 Data with Google Earth Engine
 
 Copy and paste this code into the GEE code Explorer
 
-'''javascript
+```javascript
 // Coordinates for Vancouver
 var Cent = ee.Geometry.Point([-123,49.25]);
 
@@ -50,7 +50,7 @@ Map.addLayer(ndvi, ndviParams, 'Greenest pixel composite');
 //   scale: 30,
 //   region: Boundary
 // });
-'''
+```
 
 ## Downloading the NDVI Layer
 
