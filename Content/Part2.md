@@ -8,9 +8,47 @@ nav_order: 3
 
 ## Download Data from Google Earth Engine
 
-## Setting up your GeoDatabase
-By default, ArcPro creates a geodatabase when you start a new project.
+Copy and paste this code into the GEE code Explorer
 
+  // Coordinates for Vancouver
+  var Cent = ee.Geometry.Point([-123,49.25]);
+
+  // Center Map on Vancouver
+  Map.centerObject(Cent, 10);
+
+  // Import the Landsat 8 TOA image collection.
+  var Collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA').filter(ee.Filter.lt('CLOUD_COVER_LAND', 10));
+
+  // Get the number of images.
+  var count = Collection.size();
+  print('Count: ', count);
+
+  // Define NDVI Function
+  var addNDVI_Landsat = function(image) {
+    var ndvi = image.normalizedDifference(['B5', 'B4']).rename('NDVI');
+    return image.addBands(ndvi);
+  };
+
+  // Apply Function to all Images
+  var withNDVI_Landsat = Collection.map(addNDVI_Landsat);
+
+  // Make a "greenest" pixel composite.
+  var greenest = withNDVI_Landsat.qualityMosaic('NDVI');
+  var ndvi = greenest.select('NDVI')
+
+  // Define Color Scheme for Visualization
+  var ndviParams = {min: -.5, max: 1, palette: ['blue', 'white', 'green']};
+
+  // Display the result.
+  Map.addLayer(ndvi, ndviParams, 'Greenest pixel composite');
+
+  // // Export to Google drive
+  // Export.image.toDrive({
+  //   image: ndvi,
+  //   description: 'Van_Greenest',
+  //   scale: 30,
+  //   region: Boundary
+  // });
 
 ## Downloading the NDVI Layer
 
