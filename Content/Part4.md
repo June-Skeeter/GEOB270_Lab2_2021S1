@@ -150,7 +150,7 @@ Is the DA with the highest mean NDVI value the same as the DA with the greatest 
 
 ## Question 10)
 How strongly related are these two measures of greenness? Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value?
-<!-- 0108 -->
+<!-- 0.0108 -->
 
 ## Question 11)
 Does this indicate a strong relationship between the two variables?
