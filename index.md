@@ -5,11 +5,22 @@ nav_order: 1
 ---
 
 # Lab 2 Introduction
+
+## Scenario
+You have a research question:
+What is the relationship between neighborhood tree coverage and rental cost in Vancouver?
+
+How to answer the question:
+1) Estimate tree coverage with satellite data and overlay census census data.
+2) Plot the relationship between income and tree coverage and run linear regression analysis.
+3) Visualize the result.
+
 <!-- 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UDE_v8S9-Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  -->
 ## Learning Objectives:
 
+* Experience a Typical GIS Workflow
 * Explore Canadian Census Data
 * Download Data from Google Earth Engine
 * Work with Raster and Vector Data Layers
@@ -29,3 +40,8 @@ Just as in Lab 1, create a new project in ArcPro called Lab2_Project.
 ## Download the Census Data
 
 Now download [the census data](https://github.com/June-Skeeter/GEOB270_Lab2_2021S1/blob/main/lab2_Data.zip) and extract the lab2_Data.zip file to your newly created Lab2_Project folder.
+
+
+# Credit
+
+- This lab was written by June Skeeter using content adapted from lab assignments created by Naomi Schwartz and Sally Hermansen. 
