@@ -43,7 +43,7 @@ These data layers have three variables: Population (total residents), Housing (m
   * The "R<sup>2</sup>" score here 0.066, meaning rental cost is not strongly related to income.  Which if you've lived in Vancouver, unfortunately isn't a surprise :'(
 
 <div style="overflow: hidden;
-  padding-top: 0%;
+  padding-top: 56.25%;
   position: relative">
   <iframe src="Statistics.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
@@ -93,7 +93,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
   * Change the bin number to see how changing the size of the bins, impacts how you perceive the data.  Try 10, then try 50.
 
 <div style="overflow: hidden;
-  padding-top: 0%;
+  padding-top: 56.25%;
   position: relative">
   <iframe src="Bins.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;

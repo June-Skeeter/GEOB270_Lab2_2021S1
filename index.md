@@ -8,11 +8,11 @@ nav_order: 1
 
 ## Scenario
 You have a research question:
-What is the relationship between neighborhood tree coverage and rental cost in Vancouver?
+What is the relationship between neighborhood green vegetation coverage and rental cost in Vancouver?
 
 How to answer the question:
-1) Estimate tree coverage with satellite data and overlay census census data.
-2) Plot the relationship between income and tree coverage and run linear regression analysis.
+1) Estimate vegetation coverage with satellite data and overlay census census data.
+2) Plot the relationship between vegetation coverage income and run linear regression analysis.
 3) Visualize the result.
 
 <!-- 
