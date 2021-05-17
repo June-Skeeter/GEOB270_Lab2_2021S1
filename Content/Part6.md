@@ -80,7 +80,8 @@ Resize the map and chart so the map is a bit bigger than the chart.  Then set th
 </div>
 <a href="Scale.mp4" target="_blank">View Image in New Tab</a>
 
-
+## Change the Chart Title
+The default chart title is too wordy.  Change it so its more concise and fits on the map better.
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -101,8 +102,8 @@ Resize the map and chart so the map is a bit bigger than the chart.  Then set th
 Add all the appropriate map elements: Title, Legend, North Arrow, and Source Statement.  You can reference Lab 1 for a refresher on how to do this.
 * For the Data Source in you Name/Source Statement, list Stats Canada and Google Earth Engine as the data sources
 
-## Question ZZ1)
+## Question 15)
 Export your Layout as a .pdf and upload it to Canvas.
 
-## Question ZZ2)
+## Question 16)
 What do the results of this analysis show?  Are there any improvement you think we could make to this analysis?

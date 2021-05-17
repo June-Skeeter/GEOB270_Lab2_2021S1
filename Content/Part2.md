@@ -7,7 +7,7 @@ nav_order: 3
 # Raster Data
 
 ## Calculating NDVI with Google Earth Engine
-We're going to use [LANDSAT8]() data to calculate [NDVI]() and download the layer.
+We're going to use [LANDSAT8](https://developers.google.com/earth-engine/datasets/catalog/landsat-8) data to calculate [NDVI](https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index) and download the layer.
 
 **1)** Go to the [GEE code Explorer](https://code.earthengine.google.com/), log in if you need to, and create a new Repository called "Lab2_NDVI_Download".
 
@@ -103,10 +103,7 @@ Map.addLayer(ndvi, ndviParams, 'Greenest pixel composite');
 </div>
 <a href="NewFile.png" target="_blank">View Image in New Tab</a>
 
-## Question A1)
-What happens?
-
-## Question A2)
+## Question 1)
 How many images have been retrieved to create this NDVI layer? *Hint* Look at lines 10-12 of code and the corresponding console output.
 <!-- 466405 -->
 

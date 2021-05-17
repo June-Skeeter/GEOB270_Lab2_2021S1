@@ -61,19 +61,19 @@ These data layers have three variables: Population (total residents), Housing (m
 Follow the same steps as above to symbolize population and plot Income vs. Housing for the VanCMA_CT_2016 layer.  
 * We'll cover the [census units](https://en.wikipedia.org/wiki/Census_geographic_units_of_Canada) in more depth during lecture.  In short Census Dissemination Areas (DAs) are the smallest census division used by the Canadian Census.  They cover the whole country and are generally grouped by municipality (eg. Vancouver) in to Census Subdivisions.  Census Tracts are larger units that are used to divide Census Metropolitan Areas (urban areas with populations > 100,000).
 
-## **Question X1)**
+## **Question 2)**
 What are the differences you notice between the CTs and DAs in terms of size and population?
 <!-- CTs are bigger (size & pop), DAs are just Vancouver, DAs have a few outliers. -->
 
-## **Question X2)**
+## **Question 3)**
 For every $100 increase in income at the CT level, how much does rental price increase?
 <!-- $2.66 -->
 
-## **Question X3)**
+## **Question 4)**
 What is the r2 score for this model?
 <!-- r2 = 0.38 -->
 
-## **Question X4)**
+## **Question 5)**
 Which Census Unit displays a more direct relationship between income and housing?
 A) DA
 B) CT
@@ -153,5 +153,6 @@ Looking at the NDVI Layer, the satellite imagery basemap, and the histogram, we 
 <a href="Classify.mp4" target="_blank">View Image in New Tab</a>
 
 
-## **Question X5)**
+## **Question 6)**
 Which value denotes the lower bound of the "Green Vegetation Class?"
+<!-- 0.6068 -->

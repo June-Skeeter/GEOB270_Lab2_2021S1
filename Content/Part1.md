@@ -17,7 +17,6 @@ By default, ArcPro creates a geodatabase when you start a new project.  We're go
 	* UTM Zone 10N is the name of the projection (Universal Transverse Mercator, Zone 10 N)
 	* You can set this coordinate system to your favorites by right clicking and selecting add to favorites.  This will make it easier to find in the future.
 
-
 **2)** Import the cunsus layers
 * Right click CensusData and choose Import > Feature Class(es)
 * Add Van_DA_2016.shp and and VanCMS_CT_2016.shp from the Lab2_Data folder.

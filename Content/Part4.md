@@ -47,7 +47,7 @@ We are going to overlay the vector data on the raster data to measure the mean N
 </div>
 <a href="ZonalStats.mp4" target="_blank">View Image in New Tab</a>
 
-## Question Y1)
+## Question 7)
 What is the DAUID of the DA with the highest Mean NDVI value?  *Hint* Double clicking on Green Veg Area in the attribute table allows you to sort in ascending/descending order.
 <!-- 59151219 -->
 
@@ -140,26 +140,26 @@ The [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/ana
 ## Join Summary Table
 Do a Join to add the Summary Table output to Van_DA_2016.  Following the same steps as above but use the Summary Table you just generated as the Join Table.
 
-## Question Y2)
+## Question 8)
 What is the DAUID of the DA with the highest Green Veg Area?
 <!-- 59153586 -->
 
-## Question Y3)
+## Question 9)
 Is the DA with the highest mean NDVI value the same as the DA with the greatest area of green vegetation? Y/N
 <!-- N -->
 
-## Question Y4)
+## Question 10)
 How strongly related are these two measures of greenness? Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value?
 <!-- 0108 -->
 
-## Question Y5)
+## Question 11)
 Does this indicate a strong relationship between the two variables?
 <!-- No -->
 
-## Question Y6)
+## Question 12)
 Change the Y-axis to Income and leave the X-axis as Mean NDVI, not the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income?
 
-## Question Y7) 
+## Question 13) 
 Do either of these variables seem to be strongly linked to income?  Why or why not?
 
 

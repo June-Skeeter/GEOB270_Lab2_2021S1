@@ -33,7 +33,7 @@ Now we can Normalize (Divide) the total area of green vegetation by DA size.
 </div>
 <a href="Norm.mp4" target="_blank">View Image in New Tab</a>
 
-## Question Z1)
+## Question 14)
 How does normalizing effect the relationship with income? Create a new chart with Green Vegetation Fraction on the X-axis and Income on the Y-axis to find out.  How does this compare to when we were looking at the relationship between Total Green Vegetation Area and income?
 
 <!-- The R2 score goes up to 0.073, Accounting for the different sizes of the DA improves the relationship. -->
