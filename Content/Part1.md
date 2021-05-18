@@ -7,7 +7,7 @@ nav_order: 2
 # Vector Data
 
 ## Setting up your GeoDatabase
-By default, ArcPro creates a geodatabase when you start a new project.  We're going to create a Feature Dataset within this geodatabase add the census data to it.  Feature Datasets are collections of Feature Classes that are all in the same coordinate system.  Data that comes from Stats Canada is by default in the Lambert Conformal Conic Projection.  We're going to use a Universal Transverse Mercator projection instead since we are working with a small area (Vancouver).
+By default, ArcPro creates a geodatabase when you start a new project.  We're going to create a Feature Dataset within this geodatabase and add the census data to it.  Feature Datasets are collections of Feature Classes that are all in the same coordinate system.  Data that comes from Stats Canada is by default in the Lambert Conformal Conic Projection.  We're going to use a Universal Transverse Mercator projection instead since we are working with a small area (Vancouver).
 
 **1)** Create the CensusData Feature Dataset
 * Right click on the Lab2_Project.gdb and chose New>Feature Dataset
