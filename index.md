@@ -42,6 +42,6 @@ Just as in Lab 1, create a new project in ArcPro called Lab2_Project.
 Now download [the census data](https://github.com/June-Skeeter/GEOB270_Lab2_2021S1/blob/main/lab2_Data.zip) and extract the lab2_Data.zip file to your newly created Lab2_Project folder.
 
 
-# Credit
+### Acknowledgments
 
 - This lab was written by June Skeeter using content adapted from lab assignments created by Naomi Schwartz and Sally Hermansen. 

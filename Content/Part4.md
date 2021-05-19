@@ -102,6 +102,37 @@ The [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/ana
 
 ## Add & Calculate Field
 
+Adding new fields to our attribute table allows us to perform calculations or copy a subset of our data to a new column.
+
+**1)** In the Van_DA_2016_Intersect layer, create a Green Veg Area Field.
+* Right click on Field in the attribute table.
+* Name the field Green_Veg_Area and give it an alias without the underscores.
+  * Arc doesn't allow spaces in column names.
+* Make sure the data type is Double.
+  * Double is a type of data that allows for decimals.
+* Make sure to save the field.
+* Close the field window and go back to the attribute table.
+
+**2)** Select only the green vegetation areas.
+* Choose Select by Attribute: Where gridcode is equal to 3.
+  * Select by attribute allows us to select rows/objects with a certain attribute.
+  * It relies on something called a Structured Query Language (SQL).
+  * We are selecting all rows "Where" our conditions are met.
+  * Our condition is that grdicode (attribute from the NDVI layer representing vegetation category) is equal to 3 (green vegetation).
+
+**3)** Calculate the Green Veg Area.
+* Right click on Green Veg Area and choose calculate field.
+  * This allows us to define a function and apply it.
+* Set the expression to: Green_Veg_Area = Shape_Area as the.
+  * *Note* you only need to complete the right side of the equation.
+  * This will simply copy the shape area for the green vegetation areas, we will work with a mathematical expression on the next page.
+
+**4)** Assign all other shapes a zero.
+* We can quickly invert our selection.
+* Calculate the field again, but with Green_Veg_Area = 0
+  * We have selected girdcode 1 & 2 (Not vegetation) so they all get zeros.
+
+
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -120,6 +151,13 @@ The [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/ana
 
 ## Summary Table: Area of Green Vegetation
 
+Summarizing by a field (eg. DAUID - the Dissemination Unit ID) allows us to get statistics of interest for specific columns.
+
+**1)** Get the sum of Green Veg Area by DA.
+* Right click on DAUID and click Summarize.
+* Set Green Veg Area as the Field and choose Sum as the statistic type.
+* Make sure DAUID as the Case Field.
+* The resulting table will show the total of just the green vegetation area per DA, and can be joined to the Van_DA_2016 layer.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;

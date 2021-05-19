@@ -47,7 +47,7 @@ These data layers have three variables: Population (total residents), Housing (m
   position: relative">
   <iframe src="Statistics.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
-   height: 100%;
+   height: 50%;
    left: 0;
    position: absolute;
    top: 0;
@@ -97,7 +97,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
   position: relative">
   <iframe src="Bins.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
-   height: 100%;
+   height: 50%;
    left: 0;
    position: absolute;
    top: 0;

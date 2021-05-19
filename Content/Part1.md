@@ -37,7 +37,7 @@ By default, ArcPro creates a geodatabase when you start a new project.  We're go
 <a href="FeatureDataset.mp4" target="_blank">View Image in New Tab</a>
 
 
-## Get Project Boundary Filed
+## Get Project Boundary File
 We need to create a simple boundary file to upload to Google Earth Engine so we can download satellite for the study area.  We can do this quickly using the dissolve tool.
 
 **1)** Use the Dissolve tool to create the boundary file.

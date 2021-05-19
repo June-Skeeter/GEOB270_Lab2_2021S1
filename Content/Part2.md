@@ -7,7 +7,30 @@ nav_order: 3
 # Raster Data
 
 ## Calculating NDVI with Google Earth Engine
-We're going to use [LANDSAT8](https://developers.google.com/earth-engine/datasets/catalog/landsat-8) data to calculate [NDVI](https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index) and download the layer.
+We're going to use GEE to download [LANDSAT8](https://developers.google.com/earth-engine/datasets/catalog/landsat-8) data.  LANDSAT8 is one of a large number of satellites that orbit the earth continuously collecting multi-spectral (visible light & other wavelengths) imagery.  We can use multi-spectral imagery for a number of different applications like estimating vegetation health.
+
+The lines on the chart below are referred to as a spectral reflectance curves. They show reflectance (amount of light) on the y-axis, defined as the percent of incident radiation reflected by different earth features, and wavelength on the x-axis. As you can see, the spectral reflectance curves for different features look very different. Specifically, you can see that healthy green vegetation has very high reflectance in the near-infrared wavelengths (0.7-1.4 µm) and lower reflectance in the visible part of the spectrum (0-0.7 µm), while water absorbs almost all incoming infrared radiation and thus has very low infrared reflectance. Soil has relatively higher reflectance in the visible wavelengths, and intermediate reflectance in the near infrared.
+ 
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="NDVI.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="NDVI.png" target="_blank">View Image in New Tab</a>
+
+These differences are the basis for the normalized difference vegetation index (NDVI), one of the most commonly used spectral indices for vegetation monitoring. NDVI is calculated as:
+<a href="https://www.codecogs.com/eqnedit.php?latex=NDVI&space;=&space;\frac{(NIR-&space;RED)}{(NIR&plus;&space;RED)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?NDVI&space;=&space;\frac{(NIR-&space;RED)}{(NIR&plus;&space;RED)}" title="NDVI = \frac{(NIR- RED)}{(NIR+ RED)}" /></a>
+where NIR is reflectance in the near-infrared wavelengths, and RED is reflectance in the red wavelengths. This index can range from -1 to 1, with higher values indicating more/greener/healthier vegetation. Look at the graph above and make sure you understand why green vegetation would have a high value of NDVI.
+The gray shaded areas indicate regions of the electromagnetic spectrum that are measured by a satellite. These regions are referred to as “spectral bands.” When you work with satellite imagery, you will have one raster for each band. The values for each raster contain the reflectance measured by the satellite in that band. (This will make more sense in a minute, when you start working with the satellite data).
+
 
 **1)** Go to the [GEE code Explorer](https://code.earthengine.google.com/), log in if you need to, and create a new Repository called "Lab2_NDVI_Download".
 
