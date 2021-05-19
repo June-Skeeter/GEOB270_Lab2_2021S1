@@ -53,7 +53,7 @@ What is the DAUID of the DA with the highest Mean NDVI value?  *Hint* Double cli
 
 ## Raster to Polygon Conversion:
 
-We are going to convert the Classification raster layer to a vector data and select just the Green Vegetation.  Then we can add it to the Van_DA_2016 layers so that 
+We are going to convert the Classification raster layer to a vector data and select just the Green Vegetation.
 
 **1)** Use the Raster to Polygon Tool
 * Set Classification as the Input raster
