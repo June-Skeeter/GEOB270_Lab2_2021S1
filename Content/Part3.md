@@ -42,6 +42,9 @@ These data layers have three variables: Population (total residents), Housing (m
   * The "R<sup>2</sup>" statistic, also known as the [coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) is a measure of how well a model fits the data.  It ranges from 0 to 1, with 0 representing "no fit" and 1 representing a "perfect fit".
   * The "R<sup>2</sup>" score here 0.066, meaning rental cost is not strongly related to income.  Which if you've lived in Vancouver, unfortunately isn't a surprise :'(
 
+<img src="Statistics.png" alt="hi" class="inline"/>
+
+<!-- 
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -56,6 +59,7 @@ These data layers have three variables: Population (total residents), Housing (m
  </iframe>
 </div>
 <a href="Statistics.png" target="_blank">View Image in New Tab</a>
+ -->
 
 ## Comparing CTs to DAs
 Follow the same steps as above to symbolize population and plot Income vs. Housing for the VanCMA_CT_2016 layer.  
@@ -91,7 +95,9 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 * Under Variable, set Band_1 as Number.  Note what shows up on the chart.
 * A histogram represents a distribution by grouping the data into bins (ranges), and plotting the count of values (eg. raster cells) for by bin.
   * Change the bin number to see how changing the size of the bins, impacts how you perceive the data.  Try 10, then try 50.
+
 <img src="Bins.png" alt="hi" class="inline"/>
+
 <!-- 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -108,6 +114,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 </div>
 <a href="Bins.png" target="_blank">View Image in New Tab</a>
  -->
+
 **2)** Change the base map to help inspect the NDVI data.
 * On the Map tab click Basemap and choose Imagery
 * Toggle the NDVI Layer on and off to see how the NDVI values correspond to green vegetation on the visible imagery base map layer.
