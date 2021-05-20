@@ -91,7 +91,8 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 * Under Variable, set Band_1 as Number.  Note what shows up on the chart.
 * A histogram represents a distribution by grouping the data into bins (ranges), and plotting the count of values (eg. raster cells) for by bin.
   * Change the bin number to see how changing the size of the bins, impacts how you perceive the data.  Try 10, then try 50.
-
+<img src="Bins.png" alt="hi" class="inline"/>
+<!-- 
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -106,7 +107,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
  </iframe>
 </div>
 <a href="Bins.png" target="_blank">View Image in New Tab</a>
-
+ -->
 **2)** Change the base map to help inspect the NDVI data.
 * On the Map tab click Basemap and choose Imagery
 * Toggle the NDVI Layer on and off to see how the NDVI values correspond to green vegetation on the visible imagery base map layer.
