@@ -44,22 +44,6 @@ These data layers have three variables: Population (total residents), Housing (m
 
 <img src="Statistics.png" alt="hi" class="inline"/>
 
-<!-- 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="Statistics.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 50%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="Statistics.png" target="_blank">View Image in New Tab</a>
- -->
 
 ## Comparing CTs to DAs
 Follow the same steps as above to symbolize population and plot Income vs. Housing for the VanCMA_CT_2016 layer.  
@@ -98,22 +82,6 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 
 <img src="Bins.png" alt="hi" class="inline"/>
 
-<!-- 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="Bins.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 50%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="Bins.png" target="_blank">View Image in New Tab</a>
- -->
 
 **2)** Change the base map to help inspect the NDVI data.
 * On the Map tab click Basemap and choose Imagery

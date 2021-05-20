@@ -195,7 +195,7 @@ Does this indicate a strong relationship between the two variables?
 <!-- No -->
 
 ## Question 12)
-Change the Y-axis to Income and leave the X-axis as Mean NDVI, not the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income?
+Change the Y-axis to Income and leave the X-axis as Mean NDVI, note the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income?
 
 ## Question 13) 
 Do either of these variables seem to be strongly linked to income?  Why or why not?
