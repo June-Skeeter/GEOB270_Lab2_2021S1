@@ -105,7 +105,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 <a href="Histogram.mp4" target="_blank">View Image in New Tab</a>
 
 
-## Classifying the Image
+## Classify the NDVI Image
 Looking at the NDVI Layer, the satellite imagery basemap, and the histogram, we can make some inferences about the data.  The NDVI values have a bimodal distribution (two peaks) according to the histogram.  The peaks correspond to large swaths of land dominated by water and dense urban areas (low values) and dense green vegetation (high values).  Values in-between the peaks represent less dense urban areas, with increasing greenery.  We can classify (group) the NDVI into three classes (Green Vegetation, Medium Density Residential, Water/Urban).  
 
 **1)** Use the natural breaks to estimate the class boundaries.

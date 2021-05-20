@@ -9,23 +9,11 @@ nav_order: 7
 ## Insert a Layout
 Add a layout to your map.  Choose the 8.5":" x 11" Letter size, in the Landscape orientation (this orientation is better for side by side displays)
 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="NewLayout.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="NewLayout.png" target="_blank">View Image in New Tab</a>
+<img src="NewLayout.png" alt="hi" class="inline"/>
+
 
 ## Adding a Chart to the Layout
-Arc allows you to add charts and maps to your layout.
+Arc allows you to add charts to your layout in addition to maps.
 
 
 <div style="overflow: hidden;
@@ -43,24 +31,10 @@ Arc allows you to add charts and maps to your layout.
 </div>
 <a href="Layout.mp4" target="_blank">View Image in New Tab</a>
 
-
 ## Change the Chart Title
 In the chart properties pane, under general, you can change the title of the chart so it is more concise and fits on the layout better.
 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="ChartTitle.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="ChartTitle.png" target="_blank">View Image in New Tab</a>
+<img src="ChartTitle.png" alt="hi" class="inline"/>
 
 ## Resize Items and Set Map Scale
 Resize the map and chart so the map is a bit bigger than the chart.  Then set the map scale to 1:100,000 and add the scale to the map.
@@ -85,6 +59,7 @@ Add all the appropriate map elements: Title, Legend, North Arrow, and Source Sta
 * For the Data Source in you Name/Source Statement, list Stats Canada and Google Earth Engine as the data sources
 * Your final map should look something like shown below.
   * The chart should show the relationship between green vegetation area and income.  The map should show mean NDVI value by DA.
+  * This map is just a rough guide, feel free to make your own stylistic choices to improve on it.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;

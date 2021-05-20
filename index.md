@@ -11,9 +11,10 @@ You have a research question:
 What is the relationship between neighborhood green vegetation coverage and income in Vancouver?
 
 How to answer the question:
+
 1) Estimate vegetation coverage with satellite data and overlay census data.
 2) Plot the relationship between vegetation coverage and income and run linear regression analysis.
-3) Visualize the result.
+3) Visualize the results.
 4) Complete the corresponding lab quiz on canvas and upload your final map there.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yApif5mwUlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

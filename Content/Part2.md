@@ -67,7 +67,7 @@ The gray shaded areas indicate regions of the electromagnetic spectrum that are 
 <a href="NewFile.png" target="_blank">View Image in New Tab</a>
 
 
-**3)** Copy and past the following Javascrpt code below in the grey window, paste it into the code window (top middle pane), then click run.
+**3)** Copy the following Javascrpt code below in the grey window, paste it into the code window (top middle pane), then click run.
 
 ```javascript
 // Coordinates for Vancouver

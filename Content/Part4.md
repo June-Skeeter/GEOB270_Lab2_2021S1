@@ -8,7 +8,7 @@ nav_order: 4
 
 We're going to look at two methods for overlaying a raster image and a vector layer: 1) Using the Zonal Statistics tool to overlay a raster layer, 2) Converting the raster to a vector and doing some polygon overlays.  Method 1 is slightly faster and more accurate, but can be applied in a more limited number of circumstances.  Method 2 induces some error when converting between data types (we will discuss more in lecture) and requires more steps, but it is more flexible.
 
-## Zonal Statistics: Mean NDVI
+## Method 1) Zonal Statistics
 
 We are going to overlay the vector data on the raster data to measure the mean NDVI value for each DA & CT using the Zonal Statistics as Table tool.  Then we will Join the resulting output table to display the mean NDVI values per DA & CT.  
 
@@ -51,9 +51,9 @@ We are going to overlay the vector data on the raster data to measure the mean N
 What is the DAUID of the DA with the highest Mean NDVI value?  *Hint* Double clicking on Green Veg Area in the attribute table allows you to sort in ascending/descending order.
 <!-- 59151219 -->
 
-## Raster to Polygon Conversion:
+## Method 2) Raster to Polygon Conversion
 
-We are going to convert the Classification raster layer to a vector data and select just the Green Vegetation.
+We are going to convert the Classification raster layer to a vector data and select just the Green Vegetation.  We can then overlay the resulting vector layer with the Van_DA_2016 layer using an intersect.
 
 **1)** Use the Raster to Polygon Tool
 * Set Classification as the Input raster
@@ -149,7 +149,7 @@ Adding new fields to our attribute table allows us to perform calculations or co
 <a href="AddField.mp4" target="_blank">View Image in New Tab</a>
 
 
-## Summary Table: Area of Green Vegetation
+## Summary Table
 
 Summarizing by a field (eg. DAUID - the Dissemination Unit ID) allows us to get statistics of interest for specific columns.
 
