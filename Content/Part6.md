@@ -80,12 +80,16 @@ Resize the map and chart so the map is a bit bigger than the chart.  Then set th
 </div>
 <a href="Scale.mp4" target="_blank">View Image in New Tab</a>
 
-## Change the Chart Title
-The default chart title is too wordy.  Change it so its more concise and fits on the map better.
+## Add Other Map Elements
+Add all the appropriate map elements: Title, Legend, North Arrow, and Source Statement.  You can reference Lab 1 for a refresher on how to do this.
+* For the Data Source in you Name/Source Statement, list Stats Canada and Google Earth Engine as the data sources
+* Your final map should look something like shown below.
+  * The chart should show the relationship between green vegetation area and income.  The map should show mean NDVI value by DA.
+  
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="ChartTitle.png" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="FinalMap.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -95,12 +99,7 @@ The default chart title is too wordy.  Change it so its more concise and fits on
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="ChartTitle.png" target="_blank">View Image in New Tab</a>
-
-
-## Add Other Map Elements
-Add all the appropriate map elements: Title, Legend, North Arrow, and Source Statement.  You can reference Lab 1 for a refresher on how to do this.
-* For the Data Source in you Name/Source Statement, list Stats Canada and Google Earth Engine as the data sources
+<a href="FinalMap.png" target="_blank">View Image in New Tab</a>
 
 ## Question 15)
 Export your Layout as a .pdf and upload it to Canvas.

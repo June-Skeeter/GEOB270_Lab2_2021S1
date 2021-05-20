@@ -111,20 +111,6 @@ Map.addLayer(ndvi, ndviParams, 'Greenest pixel composite');
 // });
 ```
 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="NewFile.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="NewFile.png" target="_blank">View Image in New Tab</a>
 
 ## Question 1)
 How many images have been retrieved to create this NDVI layer? *Hint* Look at lines 10-12 of code and the corresponding console output.
