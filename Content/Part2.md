@@ -113,8 +113,7 @@ Map.addLayer(ndvi, ndviParams, 'Greenest pixel composite');
 
 
 ## Question 1)
-How many images have been retrieved to create this NDVI layer? *Hint* Look at lines 10-12 of code and the corresponding console output.
-<!-- 466405 -->
+What is NDVI and what is it used for?  Describe the patterns you see in NDVI across the metro Vancouver area.
 
 ## Request the NDVI Layer
 

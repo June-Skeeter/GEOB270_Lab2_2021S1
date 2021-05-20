@@ -85,7 +85,7 @@ Add all the appropriate map elements: Title, Legend, North Arrow, and Source Sta
 * For the Data Source in you Name/Source Statement, list Stats Canada and Google Earth Engine as the data sources
 * Your final map should look something like shown below.
   * The chart should show the relationship between green vegetation area and income.  The map should show mean NDVI value by DA.
-  
+
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -101,8 +101,8 @@ Add all the appropriate map elements: Title, Legend, North Arrow, and Source Sta
 </div>
 <a href="FinalMap.png" target="_blank">View Image in New Tab</a>
 
-## Question 15)
+## Question 14)
 Export your Layout as a .pdf and upload it to Canvas.
 
-## Question 16)
+## Question 15)
 What do the results of this analysis show?  Are there any improvement you think we could make to this analysis?
