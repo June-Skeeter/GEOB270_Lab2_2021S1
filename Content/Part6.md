@@ -91,9 +91,11 @@ Clean presentation & appropriate elements (Text is descriptive/not cut off, nort
 
 Projection and scale 1:100,000 (should be obvious if the left it in Lambert conformal, Vancouver will be slanted)  - 5pts
  -->
+ 
 ## Question 15)
 What do the results of this analysis show?  Are there any improvement you think we could make to this analysis?
 
 <!-- The relationship isn't strong, probably because there are other factors that are determine where people with limited resources can afford to live and where those with money choose to live. (7.5 pts)
 
 Things to look at might include: housing cost (rent or land value) instead of income.  Both NDVI & green area combined (eg. multivariate linear regression). Excluding downtown core and focus on just medium density residential areas.  Account for water/beaches (also attracts high income but low NDIV)  .  These are just possible suggestions, they don't have to list these anything that makes sense counts (7.5 pts for listing two or more suggestions, 3.25 pts if just one). -->
+
