@@ -38,4 +38,4 @@ Now we can Normalize the total area of green vegetation by DA size.  Normalizing
 ## Question 13)
 What does data normalization do? How does normalizing effect the relationship with income? Create a new chart with Green Vegetation Fraction on the X-axis and Income on the Y-axis to find out.  How does this compare to when we were looking at the relationship between Total Green Vegetation Area and income?
 
-<!-- The R2 score goes up to 0.073, Accounting for the different sizes of the DA improves the relationship. -->
+<!-- Normalizing accounts for a confounding/secondary/other variable by dividing the variable of interest by the confounder.  This helps control for correlation between the two variables. The R2 score goes up to 0.073, Accounting for the different sizes of the DA "improves" the relationship. But not by much -->

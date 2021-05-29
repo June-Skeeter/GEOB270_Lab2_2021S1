@@ -51,7 +51,7 @@ Follow the same steps as above to symbolize population and plot Income vs. Housi
 
 ## **Question 2)**
 What are the differences you notice between the CTs and DAs in terms of size and population?
-<!-- CTs are bigger (size & pop), DAs are just Vancouver, DAs have a few outliers. -->
+<!-- CDAs are smaller population/size wise, DAs give full coverage CTs only in CMA (metro areas) -->
 
 ## **Question 3)**
 For every $100 increase in income at the CT level, how much does rental price increase?

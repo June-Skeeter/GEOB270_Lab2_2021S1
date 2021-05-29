@@ -188,14 +188,17 @@ Is the DA with the highest mean NDVI value the same as the DA with the greatest 
 
 ## Question 10)
 Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? How strongly related are these two measures of greenness? 
-<!-- 0.0108 -->
+<!-- 0.108 Not particularly strong relationship. -->
 
 ## Question 11)
 Change the Y-axis to Income and leave the X-axis as Mean NDVI, note the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income?
 
+<!-- Green area & income (r2=0.0133) Mean NDIV (r2=0.057). Mean NDVI has "stronger relationship" -->
+
 ## Question 12) 
 Are either of these variables strongly linked to income?  Why?
 
+<!-- NO, r2 0=no relationship, 1 = perfect relationship.  These values are low -->
 
 
 

@@ -115,6 +115,8 @@ Map.addLayer(ndvi, ndviParams, 'Greenest pixel composite');
 ## Question 1)
 What is NDVI and what is it used for?  Describe the patterns you see in NDVI across the metro Vancouver area.
 
+<!-- NDVI is a metric for gauging vegetation health/density/"greenness".  It is based off the differential reflectivity between red (low for plants) and near infrared (high for plants).  Across metro van - water/concrete low, residential w/ tree cover medium, forests/agriculture high -->
+
 ## Request the NDVI Layer
 
 **1)** Upload the Boundary file.
